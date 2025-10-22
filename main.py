@@ -6,7 +6,7 @@ import os
 from dotenv import load_dotenv
 from pharmacy_functions import FUNCTION_MAP
 
-load_dotenv()
+load_dotenv(override=True)
 
 
 def sts_connect():
